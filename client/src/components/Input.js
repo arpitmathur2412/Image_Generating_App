@@ -10,7 +10,7 @@ import axios from "axios"
 
 function Input() {
 
-    const API_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGExZjE1NjAtYmYwMi00MGIzLWIzMjMtNGJkOWQ0MDM0ZGFlIiwidHlwZSI6ImFwaV90b2tlbiJ9.6_ZmntXEh659RQdtJYV-2jnn6DosbRv5fdN1DufzK2g"
+    const API_KEY=""
 
     const [prompt, setPrompt] = useState("");
     const [image_url, setImageUrl] = useState("")
