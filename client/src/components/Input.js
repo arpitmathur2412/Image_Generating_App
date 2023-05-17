@@ -71,24 +71,24 @@ function Input() {
     }
     return (
         <div>
-            <div className='input-form' style={styles}>
-                <h2 style={{ styles }}>Image Generator</h2>
+            <div className='input-form' style={{styles}}>
+                <h2>Image Generator</h2>
                 <br></br>
                 <Form action='/' method='post'>
                     <Form.Group as={Row} className="mb-3" controlId="login-email">
-                        <Form.Label column sm="2">Enter Prompt</Form.Label>
+                        <Form.Label column sm="2"><h6>Enter Prompt</h6></Form.Label>
                         <Col sm="3">
                             <Form.Control onChange={onChange} type="text" placeholder="Prompt" name="prompt" value={prompt} />
                         </Col>
                     </Form.Group>
-                    <Button onClick={onClick} variant="dark">Generate Image</Button>
+                    <Button onClick={onClick} variant="primary">Generate Image</Button>
                 </Form>
                 <br></br>
                 <br></br>
-                <Container>
+                <Container style={{color:"black"}}>
                     <Row>
                         <Col xs={6} md={4}>
-                            <Image src={image_url} alt="<h2>Click on Generate to Get an Image</h2>" thumbnail />
+                            <Image src={image_url} alt="Click on Generate to Get an Image" thumbnail />
                         </Col>
                     </Row>
                 </Container>

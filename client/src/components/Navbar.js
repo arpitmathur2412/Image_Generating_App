@@ -4,10 +4,10 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigationbar(){
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="black" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
-            Online Text-to-Image 
+            AI IMAGE GENERATOR
           </Navbar.Brand>
         </Container>
       </Navbar>

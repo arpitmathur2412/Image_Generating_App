@@ -12,8 +12,6 @@ function App() {
     <>
     <Router>
       <Navigationbar/>
-      {/* <Navigationbar showAlert={showAlert} /> */}
-      {/* <Alerts alert={alert}/> */}
       <Routes>
         <Route exact path="/" element={<Home/>}/>
       </Routes>

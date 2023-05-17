@@ -1,4 +1,10 @@
 .input-form{
     margin: 20px;
-    display:grid
+    display:grid;
 }
+
+body{
+    background-color: #222831;
+    color: white; 
+}
+
