@@ -2,7 +2,7 @@
 
 ### A Web-Application that generates Images from user entered text using openAI service from EdenAI.
 
-#### TECH STACK:
+#### Tech Stack:
 
 #### 1) REACT.JS
 #### 2) NODE.JS
