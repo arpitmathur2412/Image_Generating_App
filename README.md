@@ -2,11 +2,11 @@
 
 ### A Web-Application that generates Images from user entered text using openAI service from EdenAI.
 
-#### Tech Stack:
+ech Stack:
 
-#### 1) REACT.JS
-#### 2) NODE.JS
-#### 3 EXPRESS.JS
-#### 4) OPENAI 
+1) React.js
+2) Node.js
+3 Express.js
+4) OpenAI's API of DALLE-2 Model
 
 
